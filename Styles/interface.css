@@ -1,0 +1,105 @@
+.interface {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	width: 100%;
+	margin-top: 8rem;
+}
+
+.interface .timelineup h1 {
+	font-weight: 1000;
+	-webkit-text-stroke-width: 1.3px;
+	-webkit-text-stroke-color: black;
+	position: absolute;
+	height: 139px;
+	left: 27.1%;
+	right: 31.61%;
+	top: 359px;
+
+	font-style: normal;
+	font-weight: 700;
+	font-size: 100px;
+	line-height: 121px;
+
+	color: #ffffff;
+}
+
+.interface .timelineup h2 {
+	font-weight: 1000;
+	-webkit-text-stroke-width: 1.3px;
+	-webkit-text-stroke-color: black;
+	position: absolute;
+	height: 133px;
+	left: 27.4%;
+	right: 31.1%;
+	top: 368px;
+
+	font-style: normal;
+	font-weight: 700;
+	font-size: 100px;
+	line-height: 121px;
+
+	color: #d47373;
+}
+
+.interface .interface-button {
+	width: 30rem;
+	display: flex;
+	margin-top: 3rem;
+}
+.card3 {
+	box-sizing: border-box;
+	font-weight: bold;
+	font-size: 1.1rem;
+	position: absolute;
+	height: 50.13px;
+	left: 35.42%;
+	right: 52.35%;
+	top: 540px;
+
+	background: #ffffff;
+	border: 2px solid #000000;
+	border-radius: 11px;
+}
+.card4 {
+	box-sizing: border-box;
+	font-weight: bold;
+	font-size: 1.1rem;
+	position: absolute;
+	height: 50.13px;
+	left: 49.86%;
+	right: 35.92%;
+	top: 540px;
+
+	background: #ffffff;
+	border: 2px solid #000000;
+	border-radius: 11px;
+}
+.Overcard3 {
+	box-sizing: border-box;
+
+	position: absolute;
+	height: 53px;
+	left: 35.79%;
+	right: 51.98%;
+	top: 544.87px;
+
+	background: #757474;
+	border: 2px solid #000000;
+	border-radius: 11px;
+}
+.Overcard4 {
+	box-sizing: border-box;
+
+	position: absolute;
+	height: 53px;
+	left: 50.3%;
+	right: 35.33%;
+	top: 545.87px;
+
+	background: #979797;
+	border: 2px solid #000000;
+	border-radius: 11px;
+}

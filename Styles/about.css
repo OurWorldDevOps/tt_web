@@ -1,0 +1,59 @@
+.about .about-title .about-timelineup {
+	color: #232323;
+	display: flex;
+	position: absolute;
+	top: 900px;
+	left: 11.18%;
+	right: 67.92%;
+	height: 65px;
+
+	font-style: normal;
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 68px;
+
+	color: #474747;
+}
+
+.about .about-description .description {
+	position: absolute;
+	height: 96px;
+	left: 11.18%;
+	right: 43.06%;
+	text-align: left;
+	/* text-align-last: left; */
+	top: 990px;
+	font-style: normal;
+	font-weight: 450;
+	font-size: 22px;
+	line-height: 24px;
+
+	color: #474747;
+}
+.download .download-button .download-front {
+	box-sizing: border-box;
+
+	position: absolute;
+	height: 61px;
+	left: 11.18%;
+	right: 73.48%;
+	top: 1100px;
+
+	background: #ffffff;
+	border: 2.5px solid #000000;
+	border-radius: 15px;
+}
+
+.download .download-button .download-back {
+	box-sizing: border-box;
+
+	position: absolute;
+	height: 58px;
+	left: 12.6%;
+	right: 72.6%;
+	top: 1110px;
+
+	background: #979797;
+	border: 1px solid #000000;
+	border-radius: 15px;
+}
