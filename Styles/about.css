@@ -101,13 +101,31 @@
 
 .mobileimg-2 {
 	position: absolute;
+	display: absolute;
+	z-index: 1;
+	/* background: #ffffff; */
 	width: 492.46px;
 	height: 560px;
-	left: 30.24px;
-	top: 1250.79px;
+	left: 62.24px;
+	top: 1610.79px;
 
 	transform: rotate(10deg);
+
 	/* back ground  */
+}
+
+.background-mobile {
+	position: absolute;
+	/* display: absolute; */
+	z-index: -1;
+	/* position: absolute; */
+	height: 420px;
+	left: 9.3%;
+	right: 62.52%;
+	top: 1601.62px;
+
+	background: #ef7a7a;
+	filter: blur(227px);
 }
 .download .download-button .download-front {
 	box-sizing: border-box;
@@ -197,96 +215,15 @@
 }
 
 /* contributers cards */
-
 .contributor {
-	/* width: 100%;
+	width: 100%;
 	height: 100vh;
 	display: flex;
+	position: absolute;
+	top: 145vw;
 	align-items: center;
 	justify-content: center;
-	flex-direction: column; */
-
-	width: 268px;
-	height: 118px;
-
-	/* Inside auto layout */
-
-	flex: none;
-	order: 0;
-	flex-grow: 0;
-
-	/* card sh */
-
-	width: 268px;
-	height: 118px;
-
-	/* Inside auto layout */
-
-	flex: none;
-	order: 1;
-	flex-grow: 0;
-
-	/* card y */
-
-	width: 268px;
-	height: 118px;
-
-	/* Inside auto layout */
-
-	flex: none;
-	order: 2;
-	flex-grow: 0;
-
-	/* cards */
-
-	position: absolute;
-	width: 1159px;
-	height: 118px;
-
-	/* card sh */
-
-	position: absolute;
-	width: 268px;
-	height: 118px;
-
-	/* card s */
-
-	width: 268px;
-	height: 118px;
-
-	/* Inside auto layout */
-
-	flex: none;
-	order: 0;
-	flex-grow: 0;
-
-	/* card y */
-
-	width: 268px;
-	height: 118px;
-
-	/* Inside auto layout */
-
-	flex: none;
-	order: 1;
-	flex-grow: 0;
-
-	/* card sh */
-
-	width: 268px;
-	height: 118px;
-
-	/* Inside auto layout */
-
-	flex: none;
-	order: 2;
-	flex-grow: 0;
-
-	/* card sh */
-
-	position: absolute;
-	width: 268px;
-	height: 118px;
+	flex-direction: column;
 }
 
 .contributor .card-section {
@@ -297,15 +234,16 @@
 .contributor h5 {
 	font-size: 3.5rem;
 	font-weight: 1000;
+	/* position: absolute; */
+	margin-bottom: 45px;
 	color: #5e5e5e;
 }
 
 .contributor .contributor-card {
 	width: 260px;
 	height: 135px;
-	top: 2536px;
-	position: absolute;
-
+	justify-content: center;
+	align-items: center;
 	flex-direction: row;
 	background-color: #d9d9d9;
 	border: none;
